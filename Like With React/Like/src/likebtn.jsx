@@ -8,7 +8,7 @@ export default function Like(){
     }
     return (
         <>
-            <h3>HIT YOUR LIKE THERE 👇</h3>
+            <h1>🔫🔫HIT YOUR LIKE THERE 👇</h1>
             <p>count={count}</p>
             <p onClick={liked} >{isLiked?<i className="fa-regular fa-heart" ></i>:<i className="fa-solid fa-heart" ></i>}</p>
         </>
